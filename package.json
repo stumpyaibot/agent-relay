@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-agent-relay",
+  "version": "1.0.0",
+  "description": "OpenClaw agent relay client — connects two agents via a shared room code",
+  "main": "relay.js",
+  "bin": {
+    "openclaw-relay": "./relay.js"
+  },
+  "scripts": {
+    "start": "node relay.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
