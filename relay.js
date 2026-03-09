@@ -43,7 +43,7 @@ function getBrokerUrl() {
       if (trimmed.startsWith("wss://") || trimmed.startsWith("ws://")) return trimmed;
     }
   } catch {}
-  return "wss://openclaw-relay.onrender.com";
+  return "wss://openclaw-relay-broker.onrender.com";
 }
 
 // ─── Agent name ───────────────────────────────────────────────────────────────
